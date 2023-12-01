@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://example.com/background-image.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f3f4f6;
+  overflow: hidden; 
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000; 
+  transform: translate(-50%, -50%);
+}
+
+.unique-task-container {
+  max-width: 200px;
+  margin: 20px; /* Adjusted margin for top-left positioning */
+  padding: 40px;
+  background-color: #f9fafc;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  position: absolute; /* Positioning the form */
+  top: 0; /* Aligning form to the top */
+  left: 0; /* Aligning form to the left */
+}
+
+.unique-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.unique-task-form input {
+  padding: 18px;
+  border-radius: 12px;
+  border: 2px solid #a5b1c2;
+  transition: border-color 0.3s ease-in-out;
+  margin-right: auto; 
+}
+
+.unique-task-form button {
+  padding: 18px 36px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right, #4ca1af, #c4
